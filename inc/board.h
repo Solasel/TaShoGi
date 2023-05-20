@@ -1,4 +1,6 @@
 /* Header file for board.c */
+#pragma once
+
 #include <stdint.h>
 #include <stdbool.h>
 
@@ -59,11 +61,5 @@ struct move {
 	uint8_t src_tile, dest_tile, piece, prom;
 };
 
-/* Tuple of two Zobrist hashes for hash table indexing. */
-struct two_hash {
-	uint_64t index, key;
-};
-
 int enumerate_moves(struct board *b, struct move **rv);
-uint_64t zobrist_hash(struct board *b);
 

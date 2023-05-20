@@ -10,10 +10,3 @@ int enumerate_moves(struct board *b, struct move **rv)
 	return NOT_YET_IMP;
 }
 
-/* Generates a Zobrist hash pair for a given board state. */
-uint_64t zobrist_hash(struct board *b)
-{
-	/* TODO */
-	return 0U;
-}
-

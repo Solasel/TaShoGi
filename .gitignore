@@ -1,0 +1,4 @@
+build/hash.o
+build/error.o
+build/board.o
+

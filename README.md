@@ -2,7 +2,7 @@
 
 This is a project to create a relatively functional [Shogi](https://en.wikipedia.org/wiki/Shogi) engine.
 
-Since this is the first commit, let's lay out some goals:
+Some goals for the project:
 - A transposition table to cache game position evaluations.
 - Implementation of alpha-beta pruning and the killer heuristic
 - Proper handling of sennichite (draw by repetition) and nyuugyokusengenhou (victory/draw by impasse).

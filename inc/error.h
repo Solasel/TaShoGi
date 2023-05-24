@@ -13,5 +13,5 @@ enum errs {
 
 /* Prints out a relevant error message given
    an error code. */
-char *err_msg(enum errs code);
+void err_msg(enum errs code);
 
